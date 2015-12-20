@@ -7,6 +7,20 @@
     $header.css('height', $window.innerHeight() + 'px');
   });
 
+  // Set .nav-link's height.
+  var $links = $('.nav-link');
+  var factor = 2;
+  var setNavLinkHeight = function () {
+    $links.each(function () {
+      var $link = $(this);
+      var height = $window.innerHeight() / factor;
+      $link.css('height', height + 'px')
+      .css('line-height', height + 'px');
+    });
+  };
+  setNavLinkHeight();
+  $window.on('resize', setNavLinkHeight);
+
   // Set external anchor targets
   var $anchors = $('a[rel=external]');
   $anchors.each(function () {
