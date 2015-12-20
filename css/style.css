@@ -25,7 +25,13 @@
   color: #FFF;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 5em !important;
+  font-size: 3em !important;
+}
+
+@media only screen and (min-width: 768px) {
+  #logo {
+    font-size: 5em !important;
+  }
 }
 
 .subtitle {
@@ -36,12 +42,22 @@
   text-transform: uppercase;
 }
 
+#brief {
+  display: block;
+  color: #0F3E42;
+  padding-top: 50px;
+  font-size: 1.5em;
+  font-weight: 200;
+  width: 320px;
+  margin: 0 auto;
+}
+
 #nav-bg {
   background-image: url("/img/food_bg_blur.jpg");
   background-position: 60% -100px;
   background-size: 2000px 1000px;
   background-repeat: no-repeat;
-  height: 700px;
+  min-height: 550px;
 }
 
 #logo {
@@ -236,4 +252,18 @@ article p::before {
   border: none;
   border-radius: 0 !important;
   margin: 0;
+}
+
+cite {
+  padding: 0 0 50px 0;
+}
+
+cite::before {
+  content: "--";
+  margin-right: 10px;
+}
+
+cite::after {
+  content: "--";
+  margin-left: 10px;
 }

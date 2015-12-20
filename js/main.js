@@ -1,4 +1,12 @@
 (function (window, document, $) {
+  // Set nav-bg's height to window's innerHeight.
+  var $window = $(window);
+  var $header = $('#nav-bg');
+  $header.css('height', $window.innerHeight() + 'px');
+  $window.on('resize', function () {
+    $header.css('height', $window.innerHeight() + 'px');
+  });
+
   // Set external anchor targets
   var $anchors = $('a[rel=external]');
   $anchors.each(function () {
