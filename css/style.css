@@ -2,6 +2,16 @@
   font-family: "helvetica neue", sans-serif;
 }
 
+.browserupgrade {
+  font-size: 2em;
+  color: red;
+}
+
+.browserupgrade a {
+  text-decoration: underline !important;
+  color: red !important;
+}
+
 .expand {
   width: 100% !important;
 }
@@ -139,6 +149,10 @@ footer span {
   padding: 100px 0;
 }
 
+#findus {
+  margin-top: 50px !important;
+}
+
 .findus-intro {
   font-size: 1.5em;
   font-weight: 400;
@@ -185,3 +199,26 @@ article p::before {
   width: 50px;
   margin: 0 auto -50px auto;
 }
+
+.menu-class {
+  text-align: left;
+  margin: 20px 0;
+  color: #FFF;
+}
+
+.badge {
+  background: transparent;
+  color: #000;
+}
+
+#menu {
+  background: url("/img/spring-roll.jpg") 50% 0 no-repeat;
+  margin-top: 50px !important;
+  padding: 80px 0 !important;
+}
+
+#menu h3 {
+  color: #FFF;
+  font-size: 3em;
+}
+
