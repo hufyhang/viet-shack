@@ -131,3 +131,57 @@ footer span {
 .goto-btn:hover {
   background: rgba(0, 0, 0, 0.5);
 }
+
+#findus,
+#northern-life,
+#foodgeek,
+#manchesterfinest {
+  padding: 100px 0;
+}
+
+.findus-intro {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #383E4C;
+  padding: 20px 0 0 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .findus-intro {
+    padding: 250px 0 0 0;
+  }
+}
+
+.address {
+  color: #7F8C8D;
+  font-size: 1.3em;
+}
+
+#northern-life {
+  background: #20232B;
+  color: #7F8C8D;
+}
+
+#foodgeek {
+  background: #BE4E58;
+}
+
+#manchesterfinest {
+  background: #B35CDC;
+}
+
+
+article p {
+  quotes: "“" "”" "‘" "’";
+  font-size: 1.6em;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+
+article p::before {
+  display: block;
+  content: open-quote no-close-quote;
+  font-size: 5em;
+  width: 50px;
+  margin: 0 auto -50px auto;
+}
