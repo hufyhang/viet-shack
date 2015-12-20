@@ -1,0 +1,133 @@
+* {
+  font-family: "helvetica neue", sans-serif;
+}
+
+.expand {
+  width: 100% !important;
+}
+
+.clear {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#logo {
+  color: #FFF;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 5em !important;
+}
+
+.subtitle {
+  display: block;
+  font-size: 2em;
+  color: #B42312;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#nav-bg {
+  background-image: url("/img/food_bg_blur.jpg");
+  background-position: 60% -100px;
+  background-size: 2000px 1000px;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#logo {
+  width: 100%;
+  padding-top: 100px  !important;
+}
+
+@media only screen and (min-width: 768px) {
+  #logo-link {
+    width: 700px;
+    height: 100px;
+    background-size: 700px 100px;
+
+  }
+}
+
+#nav-links {
+  /* margin-top: 10px !important; */
+  list-style: none;
+}
+
+.nav-link {
+  background: #000;
+  height: 400px;
+  line-height: 430px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 3em;
+  background-size: 700px 500px ;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.nav-link a {
+  color: #FFF;
+  text-shadow: 0 0 10px #999;
+}
+
+#bg-mr-shack {
+  background-image:url("/img/mr_shack_masked.jpg");
+}
+
+#bg-grill {
+  background-image:url("/img/grill_masked.jpg");
+}
+
+#bg-brand {
+  background-image:url("/img/brand_masked.jpg");
+}
+
+#bg-menu {
+  background-image:url("/img/menu_masked.jpg");
+}
+
+footer {
+  height: 100px;
+  line-height: 100px;
+  background: #181A1E;
+  padding-left: 20px;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer span {
+  display: block;
+  color: #999;
+  padding-left: 10px;
+}
+
+.goto-btn {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 70px;
+  height: 70px;
+  line-height: 90px;
+  border-radius: 100%;
+  color: #E9ECEC;
+}
+
+.goto-btn:link {
+  color: #FFF;
+}
+.goto-btn:visited {
+  color: #FFF;
+}
+.goto-btn:hover {
+  color: #FFF;
+}
+.goto-btn:active {
+  color: #FFF;
+}
+
+.goto-btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
