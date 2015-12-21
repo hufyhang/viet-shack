@@ -126,11 +126,11 @@ a:active {
   background-image:url("/img/menu_masked.jpg");
 }
 
-footer {
-  height: 100px;
-  line-height: 100px;
+footer#footer {
+  /*height: 100px;*/
+  /*line-height: 100px;*/
   background: #181A1E;
-  padding-left: 20px;
+  padding: 50px 20px !important;
 }
 
 footer a {
@@ -285,4 +285,38 @@ cite::before {
 cite::after {
   content: "--";
   margin-left: 10px;
+}
+
+#footer-links {
+  list-style: none;
+}
+
+.footer-link {
+  display: inline-block;
+  *display: inline;
+  margin: 0 5px;
+}
+
+.footer-link a {
+  display: inline-block;
+  *display: inline;
+  height: 46px;
+  width: 45px;
+  overflow: hidden;
+  text-indent: 120%;
+  background-image: url("/img/sprite.png");
+  background-repeat: no-repeat;
+}
+
+#twitter-link {
+  background-position: 0 0;
+}
+
+#facebook-link {
+  background-position: 0 -46px;
+}
+
+
+footer #copy {
+  padding-top: 10px !important;
 }
