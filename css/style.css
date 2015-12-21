@@ -137,10 +137,15 @@ footer a {
   color: #FFF;
 }
 
+footer a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
 footer span {
   display: block;
   color: #999;
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 .goto-btn {
