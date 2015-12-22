@@ -1,5 +1,9 @@
 * {
-  font-family: "helvetica neue", sans-serif;
+  font-family: "Dosis", "helvetica neue", sans-serif;
+}
+
+.bg-fixed {
+  background-attachment: fixed !important;
 }
 
 a:link {

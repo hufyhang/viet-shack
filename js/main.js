@@ -40,6 +40,6 @@
   });
 
   // jQuery Parallax Scrolling
-  $('#nav-bg').parallax('50%', 0.2);
+  // $('#nav-bg').parallax('50%', 0.2);
   $('#menu').parallax('50%', 0.1);
 })(window, document, jQuery);
